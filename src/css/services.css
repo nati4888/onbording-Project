@@ -1,0 +1,210 @@
+.page{
+    flex:1;
+    background-size: cover;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+
+.page_header{
+    margin-bottom: 1%;
+    min-height: 20vh;  
+    }
+      .logo_name{
+            display:grid;
+            grid-template-rows:auto;
+            grid-template-columns:20% 60% 20%;
+            margin-bottom: 2%;
+        }
+        .logos{
+            align-self: center; 
+            
+        }
+        
+        .names{
+            position: relative;
+            top:25%;
+            width:100%; 
+
+        }
+      .navigation .menus   {
+            display:grid;
+            grid-auto-flow: column;
+            grid-gap:2%;      
+            list-style-type:none;
+            align-items: center;
+            justify-content:center;
+            margin:0;
+            padding:0;
+            font-size:125%;
+           
+        }
+        .menus_items{
+            text-decoration:none;
+            color:black;
+            -webkit-transition: font-size 2s ease-out;
+            -moz-transition: font-size 2s ease-out;
+            -o-transition: font-size 2s ease-out;
+            transition: font-size 2s ease-out;
+            font-family:Andale Mono, monospace;
+
+            border-radius:10%;
+        }
+        .menus_items:hover {
+            font-size:xx-large;  
+          }
+        @media screen and (max-width: 768px){
+            /* (A) BREAK INTO VERTICAL MENU */
+            .navigation  .menus   {
+                display:grid;
+                grid-auto-flow: row;
+                grid-gap:1%;
+                
+                
+                list-style-type:none;
+                align-items: center;
+            
+                align-items: center;
+                justify-content:center;
+                margin:0;
+                padding:0;
+            
+                font-size:125%;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+               
+            }
+        }
+        .page_main{
+            display: grid;
+            grid-auto-flow: row;
+            margin-top:3px;
+            margin-bottom:3px;
+            flex-direction: row;
+           
+            
+        }
+        .services{
+    
+            font-family:Verdana, Geneva, Tahoma, sans-serif;        
+            padding:3%;
+             display:flex;
+             width:100%;
+         
+         }
+         @media (max-width:300px) {
+            .services {
+              flex-direction: column;
+              width: 15px;
+            }
+          }
+          
+          
+        .image_description{
+            width:25%;
+        }
+        .image{
+            width:40%;
+        }
+        .description{
+            font-size:130%;
+            font-weight:400px;
+            font-family: monospace;
+            margin-top: 25px;
+            margin-bottom: 5px;
+        }
+        .package_table {
+    
+            text-align: center;
+            margin: 0;
+            padding: 0;
+           font-weight: bold;
+           font-family: monospace;
+           font-size:100%;
+            border-radius: 13px; 
+            border-spacing: 0;
+            width:'30%';
+            height:450px;
+            border:solid 1px black;
+          
+          }
+          .package_table .header {
+            border-radius: 13px; 
+            
+            background-color: rgb(128, 197, 107);
+            color: rgb(20, 18, 18);
+            font-size:150%;
+            
+            text-align: center;
+            padding:2%;
+            
+          }
+          .data{
+            border-radius: 13px;
+        }
+          .columns{
+            width:20%;
+            
+           
+        }
+        .button {
+            background-color: #582304;
+            border: none;
+            color: rgb(205, 222, 236);
+            text-decoration: none;
+            text-align: center;
+            -webkit-transition: background-color 2s ease-out;
+            -moz-transition: background-color 2s ease-out;
+            -o-transition: background-color 2s ease-out;
+            transition: background-color 2s ease-out;
+            
+            
+          }
+          .button:hover{
+            font-size: auto;
+            background-color: darkslategray;
+            transform: rotateY(30deg);
+            text-decoration: none;
+            z-index: -1;
+          }
+        
+        
+          
+ 
+        .page_footer{
+            margin-top: 8%;
+            bottom:0vh;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        
+        }
+        .page_footer .footer_icons{
+            
+            display:grid;
+            grid-auto-flow:column;
+            list-style-type:none;
+            justify-content:center;
+            margin:0;
+            padding:0;
+            border:0;
+           
+        }
+        .footer_copyright{
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+
+
+  
+.fab:hover{
+	transform:translate(0,-5px);
+	
+}
+  
+
+  
+  
+ 
+  
+  
+  /* The "Sign Up" button */
+  
+
